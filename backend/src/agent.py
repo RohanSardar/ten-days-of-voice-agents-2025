@@ -47,7 +47,7 @@ async def entrypoint(ctx: JobContext):
         stt=deepgram.STT(model="nova-3"),
         # A Large Language Model (LLM) is your agent's brain, processing user input and generating a response
         llm=google.LLM(
-                model="gemini-2.5-flash",
+                model="gemini-2.5-flash-lite",
             ),
         # Text-to-speech (TTS) is your agent's voice, turning the LLM's text into speech that the user can hear
         tts=murf.TTS(
