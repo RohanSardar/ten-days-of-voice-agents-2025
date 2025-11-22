@@ -166,7 +166,7 @@ async def entrypoint(ctx: JobContext):
             ),
         # Text-to-speech (TTS) is your agent's voice, turning the LLM's text into speech that the user can hear 
         tts=murf.TTS(
-                voice="en-IN-arohi", 
+                voice="en-IN-anusha", 
                 style="Conversation",
                 tokenizer=tokenize.basic.SentenceTokenizer(min_sentence_len=2),
                 text_pacing=True
